@@ -1,0 +1,154 @@
+.contact-page {
+  padding-top: 108px;
+}
+
+.contact-hero {
+  background: var(--navy);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact-hero .section-title {
+  color: var(--white);
+  font-size: 3rem;
+}
+
+.contact-hero .section-title::after {
+  margin: 0.6rem auto 0;
+}
+
+.contact-hero p {
+  color: rgba(255,255,255,0.75);
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.contact-main {
+  padding: 5rem 2rem;
+}
+
+.contact-main__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.contact-item__icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.contact-item h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--orange);
+  margin-bottom: 0.3rem;
+}
+
+.contact-phone {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.contact-item p {
+  font-size: 0.9rem;
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+.hours-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.hours-table td {
+  padding: 0.3rem 0.5rem 0.3rem 0;
+  color: var(--gray);
+}
+
+.hours-table td:first-child {
+  font-weight: 600;
+  color: var(--text);
+  padding-right: 1.5rem;
+  white-space: nowrap;
+}
+
+.contact-cta {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+.contact-map {
+  height: 480px;
+  border: 3px solid var(--off-white);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.contact-guarantee {
+  background: var(--navy);
+  padding: 3rem 2rem;
+}
+
+.contact-guarantee__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.guarantee-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.9rem;
+}
+
+.guarantee-item span {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.guarantee-item strong {
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding-top: 72px;
+  }
+
+  .contact-main__container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact-map {
+    height: 320px;
+  }
+}

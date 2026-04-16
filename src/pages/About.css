@@ -1,0 +1,151 @@
+.about-page {
+  padding-top: 108px;
+}
+
+.about-hero {
+  background: var(--navy);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.about-hero .section-title {
+  color: var(--white);
+  font-size: 3rem;
+}
+
+.about-hero .section-title::after {
+  margin: 0.6rem auto 0;
+}
+
+.about-hero p {
+  color: rgba(255,255,255,0.75);
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.about-story {
+  padding: 5rem 2rem;
+}
+
+.about-story__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-story__image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.about-story__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.about-story__text p {
+  color: var(--gray);
+  font-size: 0.97rem;
+  line-height: 1.8;
+}
+
+.about-values {
+  background: var(--off-white);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.about-values__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.value-card {
+  background: var(--white);
+  padding: 2rem 1.5rem;
+  border-top: 4px solid var(--orange);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.value-card__icon {
+  font-size: 2.2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.value-card h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.value-card p {
+  font-size: 0.88rem;
+  color: var(--gray);
+  line-height: 1.65;
+}
+
+.about-cta {
+  background: var(--orange);
+  padding: 5rem 2rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.about-cta h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.75rem;
+}
+
+.about-cta p {
+  color: rgba(255,255,255,0.9);
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.about-cta .btn-primary {
+  background: var(--navy);
+  border-color: var(--navy);
+}
+
+.about-cta .btn-primary:hover {
+  background: var(--navy-light);
+  border-color: var(--navy-light);
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding-top: 72px;
+  }
+
+  .about-story__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-story__image img {
+    height: 280px;
+  }
+}
