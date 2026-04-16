@@ -38,10 +38,9 @@ function Home() {
         <div className="hero__overlay"></div>
         <div className="hero__content">
           <span className="hero__badge">16 Years of Proven Expertise</span>
-          <h1 className="hero__title">Guardians of Dry</h1>
+          <h1 className="hero__title">Michigan's Basement Waterproofing Experts</h1>
           <p className="hero__sub">
-            Transforming wet basements into dry, livable spaces. Let us safeguard
-            your home with top-quality waterproofing solutions.
+            Protecting homes from water damage for over 16 years.
           </p>
           <div className="hero__actions">
             <a href="tel:5869001900" className="btn-primary">Free Estimate — 586-900-1900</a>
