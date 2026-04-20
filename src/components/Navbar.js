@@ -27,7 +27,7 @@ function Navbar() {
         <div className="navbar__container">
           <Link to="/" className="navbar__brand">
             <img
-              src={`${process.env.PUBLIC_URL}/logo.png`}
+              src={`${process.env.PUBLIC_URL}/logo.jpg`}
               alt="Quality 1st Basement Waterproofing"
               className="navbar__logo"
             />

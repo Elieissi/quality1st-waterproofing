@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer__container">
         <div className="footer__brand">
           <img
-            src={`${process.env.PUBLIC_URL}/logo.png`}
+            src={`${process.env.PUBLIC_URL}/logo.jpg`}
             alt="Quality 1st Basement Waterproofing"
             className="footer__logo"
           />
